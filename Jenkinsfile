@@ -2,6 +2,7 @@ pipeline{
     agent any
 
         tools {
+             jdk 'java.home'
         maven 'maven3.6'
     }
 //spring mvc
